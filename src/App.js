@@ -24,7 +24,6 @@ function App() {
       }).map(item => {
         return <p onClick={() => { setSearchTerm(item.name) }}> {item.name} </p>   //you can use link here to make the items cliclable
       })}
-      <p> this is the changes </p>
     </div>
   );
 }
